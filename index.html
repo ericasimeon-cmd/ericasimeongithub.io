@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LOGIN PAGE -->
+    <div id="login-page" class="login-container">
+        <h2>Login</h2>
+
+        <input type="text" id="username" placeholder="Enter username">
+        <input type="password" id="password" placeholder="Enter password">
+
+        <button onclick="login()">Login</button>
+    </div>
+
+    </div>
+
+    <div id="logout-form" style="display:none;">
+    <h2>Welcome, <span id="user-name"></span>!</h2>
+    <li><a href="#" onclick="Logout()">Logout</a></li>
+
+
+</div>
+
+
+
+
+    <!-- PORTFOLIO PAGE -->
+    <div id="portfolio-page" style="display: none;">
+
+        <!-- NAVIGATION BAR -->
+        <header>
+            <a class="logo"> ERICA G. SIMEON PERSONAL PORTFOLIO</a>
+
+            <ul class="nav">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#" onclick="Logout()">Logout</a></li>
+            </ul>
+        </header>
+
+        <!-- HOME SECTION -->
+        <section class="home" id="home">
+
+            <div class="home-content">
+                <h2>Hello!, my name is<h2>
+                <h1>Erica G. Simeon<h1>
+                              <h2 class="subtitle">CEIT <span>MASARAP MASARAP!!!</span> CEIT <span>PATIKIM PATIKIM!!!</span></h2>
+
+                <p class="quote">
+                   "When life gives you lemons, make lemonade"
+                </p>
+            </div>
+
+                <div class="home-img">
+                <img src=https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/590480356_1507215470530419_6019637551922510682_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=100&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFIg887fX0rRZzlagbIBckQxucU9IWiCkHG5xT0haIKQTIPj8WL01qaOaFXS2vVO_1VwY_veHVKzIbDfwVFeTL_&_nc_ohc=yDhwQZQUuF0Q7kNvwE3LaLH&_nc_oc=AdklxHVbVWKDGw4_qhPFSIw4BTH9O_Pm9LO2RAIRPX2oORZR6cdG6mKMCoRW-cmmTxQ&_nc_zt=23&_nc_ht=scontent.fceb1-2.fna&oh=03_Q7cD3wHDYDf6YH1VM5RhtMFN0weoxF-_wsPU4gX6SCxTsucD8g&oe=69524F97 class="home-img">
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="about" id="about">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-container">
+                <img src= https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/591519007_26038830515704813_4377845289167197813_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeG5tmnkcwcygnpIc685eOYUxywUX2P83j3HLBRfY_zePZnH2vo1p48rlkL_AclgqPLMGB7xMDIIATzvUPvwLJ0r&_nc_ohc=x2mSuGun1H4Q7kNvwG4mNUP&_nc_oc=Adl_01sSjFVpdevL_qx8gQgZp2E4-m1ea7gAKgVGDFEBkfgsPTY3a6XcKWioh4UPV5Q&_nc_zt=23&_nc_ht=scontent.fceb1-2.fna&oh=03_Q7cD3wFlllafjDR9gFb8QB36838_XvSzpo0I8Z1vpdHs7Ho0_g&oe=69523958 class="about-img">.
+
+
+                <div class="about-text">
+                    <h2>
+                    Name: Erica G. Simeon
+                    </h2>
+                    <p>
+                    <b>Age: </b>18 years old.
+                    </p>
+                    <p>
+                    <b>Birthday: </b>April,12 2007.
+                    </p>
+                    <p>
+                    <b>Address: </b>Purok-7 brgy marcos, Magallanes, Agusan del Norte.
+                    </p>
+                    <p>
+                    <b>Course: </b>Bachelor of Science in Information Technology.
+                    </p>
+                    <p>
+                    <b>Hobbies: </b>I like to dance, playing online games and eating.
+                    </p>
+                    <p>
+                    <b>Favorite Food: </b>kilawin, chicken, Lechon Baboy.
+                    </p>
+                    <p>
+                    <b>Things I like: </b>i like reading book and watching movies
+                    </p>
+                    <p>
+                    <b>Things I dislike: </b> disrespect my perents.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SERVICES SECTION -->
+        <section class="Portfolio" id="services">
+            <h2 class="section-title">MY PERSONAL INFO:</h2>
+
+            <div class="service-boxes">
+
+                <div class="service-box">
+                    <h3>FATHER INFO: </h3>
+                    <P>FATHER NAME: RODERICK LEGARA SIMEON <P>
+                    <P>AGE: 46 YEARS OLD <P>
+                    <P>FATHER WORK:WELDER <P>
+                     <p></p>
+                </div>
+
+                <div class="service-box">
+                    <h3> SCHOOL:</h3>
+                    <p>ELEMENTARY SCHOOL: MAGALLANES CENTRAL ELEMENTARY SCHOOL</p>
+                    <p>HIGHSCHOOL SCHOOL: MAGALLANES NATIONAL HIGH SCHOOL</p>
+
+                </div>
+
+                <div class="service-box">
+                    <h3>MOTHER INFO:</h3>
+                    <p>MOTHER NAME: JOAN GELLOAGAN SIMEON</p>
+                    <P>MOTHER WORK: FACTURY WORKER</P>
+                    <P>AGE: 46 YEARS OLD <P></P>
+                </div>
+
+            </div>
+        </section>
+ 
+        <script>
+        function login() {
+            document.getElementById("login-page").style.display = "none";
+            document.getElementById("portfolio-page").style.display = "block";
+        }
+
+        function logout() {
+            document.getElementById("portfolio-page").style.display = "none";
+            document.getElementById("login-page").style.display = "flex";
+        }
+
+    </script>
+
+</body>
+
+</html>
